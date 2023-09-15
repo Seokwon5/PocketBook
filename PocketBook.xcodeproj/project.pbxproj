@@ -19,6 +19,8 @@
 		FB014ED52A330C42000F3EB8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FB014ED42A330C42000F3EB8 /* Alamofire */; };
 		FB014ED82A330C74000F3EB8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FB014ED72A330C74000F3EB8 /* Kingfisher */; };
 		FB014EDA2A33103B000F3EB8 /* ReviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB014ED92A33103B000F3EB8 /* ReviewListPresenter.swift */; };
+		FB6486872AAF10CB0079B2D4 /* FilteringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6486862AAF10CB0079B2D4 /* FilteringButton.swift */; };
+		FB6486892AAF18460079B2D4 /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6486882AAF18460079B2D4 /* FilterType.swift */; };
 		FB7FFCB82A91F4BF0056EF40 /* CompleteBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FFCB72A91F4BF0056EF40 /* CompleteBookViewController.swift */; };
 		FB7FFCBA2AA3537A0056EF40 /* CurrentBookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7FFCB92AA3537A0056EF40 /* CurrentBookCollectionViewCell.swift */; };
 		FB9F971B2A387EB900FF42E8 /* ReviewWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F971A2A387EB900FF42E8 /* ReviewWriteViewController.swift */; };
@@ -70,6 +72,8 @@
 		FB014EC12A330B67000F3EB8 /* BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITests.swift; sourceTree = "<group>"; };
 		FB014EC32A330B67000F3EB8 /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB014ED92A33103B000F3EB8 /* ReviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenter.swift; sourceTree = "<group>"; };
+		FB6486862AAF10CB0079B2D4 /* FilteringButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringButton.swift; sourceTree = "<group>"; };
+		FB6486882AAF18460079B2D4 /* FilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
 		FB7FFCB72A91F4BF0056EF40 /* CompleteBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBookViewController.swift; sourceTree = "<group>"; };
 		FB7FFCB92AA3537A0056EF40 /* CurrentBookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBookCollectionViewCell.swift; sourceTree = "<group>"; };
 		FB9F971A2A387EB900FF42E8 /* ReviewWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWriteViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 				FB014EA42A330B65000F3EB8 /* ReviewListViewController.swift */,
 				FB014ED92A33103B000F3EB8 /* ReviewListPresenter.swift */,
 				FB9F973D2A72499E00FF42E8 /* ReviewListViewCell.swift */,
+				FB6486862AAF10CB0079B2D4 /* FilteringButton.swift */,
 				FB9F973C2A6AC63800FF42E8 /* ReviewListDetail */,
 			);
 			path = ReviewList;
@@ -219,6 +224,7 @@
 				FB9F97242A41A1D100FF42E8 /* BookSearchRequestModel.swift */,
 				FB9F97282A41A4C000FF42E8 /* BookSearchResponseModel.swift */,
 				FB9F97312A44387400FF42E8 /* BookReview.swift */,
+				FB6486882AAF18460079B2D4 /* FilterType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -400,7 +406,9 @@
 				FB9F973B2A6AC63000FF42E8 /* ReviewListDetailViewController.swift in Sources */,
 				FB9F97402A77B85900FF42E8 /* SearchBookViewCell.swift in Sources */,
 				FB9F97322A44387400FF42E8 /* BookReview.swift in Sources */,
+				FB6486872AAF10CB0079B2D4 /* FilteringButton.swift in Sources */,
 				FB7FFCBA2AA3537A0056EF40 /* CurrentBookCollectionViewCell.swift in Sources */,
+				FB6486892AAF18460079B2D4 /* FilterType.swift in Sources */,
 				FB9F972B2A41AE5100FF42E8 /* Book.swift in Sources */,
 				FB014EA12A330B65000F3EB8 /* AppDelegate.swift in Sources */,
 				FB7FFCB82A91F4BF0056EF40 /* CompleteBookViewController.swift in Sources */,

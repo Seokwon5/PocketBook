@@ -23,13 +23,15 @@ class CurrentBookCollectionViewCell: UICollectionViewCell {
     lazy var currentBookLabel: UILabel = {
         let label = UILabel()
         label.textColor = .label
-        label.text = "책 제목"
+        
+        
         label.font = .systemFont(ofSize: 16.0, weight: .semibold)
         label.numberOfLines = 2
         label.lineBreakMode = .byTruncatingTail
          
         return label
     }()
+    
     private lazy var currentBookIndex: UILabel = {
         let label = UILabel()
         
@@ -50,24 +52,22 @@ class CurrentBookCollectionViewCell: UICollectionViewCell {
     }
     
     func setup() {
-        [currentImageView, currentBookLabel, currentBookIndex].forEach { addSubview($0) }
+        [currentImageView, currentBookLabel].forEach { addSubview($0) }
         
         currentImageView.snp.makeConstraints{
             $0.leading.equalToSuperview()
-            $0.top.equalToSuperview().inset(16.0)
+            $0.top.equalToSuperview()
             $0.width.equalTo(120.0)
             $0.height.equalTo(200.0)
         }
         
         currentBookLabel.snp.makeConstraints{
-            $0.top.equalTo(currentImageView.snp.bottom).offset(4.0)
+            $0.top.equalTo(currentImageView.snp.bottom)
             $0.leading.equalTo(currentImageView.snp.leading)
             $0.width.equalTo(currentImageView.snp.width)
         }
-        
-        currentBookIndex.snp.makeConstraints{
-            $0.top.equalTo(currentBookLabel.snp.bottom)
-            $0.leading.equalTo(currentBookLabel.snp.leading)
-        }
+ 
     }
+    
+
 }
