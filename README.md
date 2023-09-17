@@ -12,7 +12,7 @@
 
 ## 기능 구현
 
-(https://github.com/Seokwon5/PocketBook/assets/77192860/51cb3a59-ae2e-461a-aecd-c8b9e1b93504)
+![Simulator Screen Recording - iPhone 14 Pro - 2023-09-17 at 19 20 51](https://github.com/Seokwon5/PocketBook/assets/77192860/51cb3a59-ae2e-461a-aecd-c8b9e1b93504)
 
 
 
