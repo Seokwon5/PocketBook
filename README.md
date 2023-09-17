@@ -12,7 +12,7 @@
 
 ## 기능 구현
 
+![Uploading Simulator Screen Recording - iPhone 14 Pro - 2023-09-17 at 19.20.51.gif…]()
 
-https://github.com/Seokwon5/PocketBook/assets/77192860/00fc6a94-72b7-4aed-b6ac-f4331f248e37
 
 
