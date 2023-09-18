@@ -31,6 +31,7 @@
 
 ### 디테일 뷰
 <img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/baeddc1b-5adb-4373-9268-ad08269a25b3" width = "200" height = "400">
+
 #### AlertView
 - alertViewController를 생성하여 책 데이터의 상태를 구분하도록 구현하였습니다.
 
