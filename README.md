@@ -15,7 +15,6 @@
 
 ## 기능 구현
 ### 홈 화면
-![KakaoTalk_Photo_2023-09-15-19-05-31 001](https://github.com/Seokwon5/PocketBook/assets/77192860/6606873c-83ff-4843-9091-d3cfd7fb7926)
 <img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/6606873c-83ff-4843-9091-d3cfd7fb7926" width = "200" height = "400">
 
 ### TabBarController
