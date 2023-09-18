@@ -11,10 +11,11 @@
 * UserDefaults
 
 ## 개발 환경
-- **Develoment** Target: ios 16.4 
+- **Develoment Target** : ios 16.4 
 - **Xcode** : v14.0
 
 ## 기능 구현
+### 홈 화면
 
 
 
