@@ -16,9 +16,13 @@
 ## 기능 구현
 ### 홈 화면
 ![KakaoTalk_Photo_2023-09-15-19-05-31 001](https://github.com/Seokwon5/PocketBook/assets/77192860/6606873c-83ff-4843-9091-d3cfd7fb7926)
+<img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/6606873c-83ff-4843-9091-d3cfd7fb7926" width = "200" height = "400">
 
-###TabBarController
+### TabBarController
 - 최근에 분류한 책들을 보기 위한 홈 화면과 책 전체를 다루는 서재 화면으로 나누었습니다
+### CollectionView, TableView
+- '읽는 중'인 책은 CollectionView로 구현하였습니다
+- '다 읽은 책'은 TableView로 구현하였습니다
 
 
 
