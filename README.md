@@ -16,8 +16,9 @@
 ## 기능 구현
 ### 서재 화면
 
-#### Filter
+#### FilterButtonView
 <img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/7c763934-442c-442a-b694-751822bff32f" width = "200" height = "400">
+
 - 필터링 버튼뷰를 넣어 분류된 책을 따로 볼 수 있도록 구현하였습니다
 
 ### 홈 화면
