@@ -25,8 +25,8 @@
 #### 검색 화면
 <img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/0fd3946a-63a9-46f4-880e-5e90a32134a0" width = "200" height = "400">
 
-- NSManagedObjectContext메소드를 이용하여 데이터를 저장하였습니다.
-- Picker를 이용하여 MBTI 저장을 편리하게 구현하였습니다.
+- 네이버 openApi를 요청 후 입력받아 저장하였습니다.
+- 타이핑과 동시에 검색이 될 수 있도록 구현하였습니다.
 
 ### 상세 화면
 <img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/baeddc1b-5adb-4373-9268-ad08269a25b3" width = "200" height = "400">
@@ -40,6 +40,7 @@
 
 #### TabBarController
 - 최근에 분류한 책들을 보기 위한 홈 화면과 책 전체를 다루는 서재 화면으로 나누었습니다
+  
 #### CollectionView, TableView
 - '읽는 중'인 책은 CollectionView로 구현하였습니다
 - '다 읽은 책'은 TableView로 구현하였습니다
