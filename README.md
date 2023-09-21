@@ -22,8 +22,8 @@
 
 - 필터링 버튼뷰를 넣어 분류된 책을 따로 볼 수 있도록 구현하였습니다
 
-#### 친구 저장
-<img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/cc185310-ffba-42da-875e-aa1981cf7771" width = "200" height = "400">
+#### 검색 화면
+<img src = "https://github.com/Seokwon5/PocketBook/assets/77192860/0fd3946a-63a9-46f4-880e-5e90a32134a0" width = "200" height = "400">
 
 - NSManagedObjectContext메소드를 이용하여 데이터를 저장하였습니다.
 - Picker를 이용하여 MBTI 저장을 편리하게 구현하였습니다.
